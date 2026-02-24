@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Home</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="nav-logo" href="index.html">Adrian<span>SanPedro</span><img src="assets/images/icon.png" alt="" class="nav-logo-icon"/></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Hire Me</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <!-- Left: Text -->
+        <div class="hero-text">
+          <div class="hero-badge">
+            <span class="dot"></span>
+            Available for Opportunities
+          </div>
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Adrian San Pedro</span><br/>
+            I build for the web.
+          </h1>
+          <p class="hero-tagline">
+            <span id="typeText"></span><span style="color:var(--clr-accent)">|</span>
+          </p>
+          <p class="hero-tagline" style="margin-top:-16px;">
+            Passionate about creating clean, performant, and accessible digital experiences that make a difference.
+          </p>
+          <div class="hero-actions">
+            <a href="projects.html" class="btn btn-primary">View My Work</a>
+            <a href="about.html" class="btn btn-outline">About Me</a>
+          </div>
+        </div>
+
+        <!-- Right: Avatar -->
+        <div class="hero-visual">
+          <div class="hero-visual-inner">
+            <img src="assets/images/icon.png" alt="Icon" class="hero-avatar-icon"/>
+            <div class="hero-avatar-wrap">
+              <div class="hero-avatar-ring"></div>
+              <div class="hero-avatar"><img src="assets/images/adrian.jpg" alt="Adrian San Pedro"/></div>
+              <div class="hero-float-badge badge-1">
+                ✨ Student Developer
+              </div>
+              <div class="hero-float-badge badge-2">
+                🚀 3+ Projects Built
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <div class="scroll-mouse"></div>
+      Scroll down
+    </div>
+  </section>
+
+  <!-- ======= FEATURED PROJECTS ======= -->
+  <section class="section" id="featured">
+    <div class="container">
+      <span class="section-label fade-up">Featured Work</span>
+      <h2 class="section-title fade-up">Projects I'm Proud Of</h2>
+      <p class="section-subtitle fade-up">
+        A curated selection of my best work. Each project represents a unique challenge and a meaningful solution.
+      </p>
+
+      <div class="featured-grid">
+
+        <!-- Project Card 1 (PLEV) -->
+        <article class="card project-card fade-up">
+          <div class="card-thumb">
+            <!--  Replace placeholder with <img src="assets/images/project1.png" alt="Project 1"/>  -->
+            <div class="thumb-placeholder"> <img src="assets/images/project1.png" alt="Project 1"/> </div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">Wordpress</span>
+              <span class="tag">UI/UX DESIGN</span>
+              <span class="tag">SEO</span>
+            </div>
+            <h3 class="card-title">plevtee.com</h3>
+            <p class="card-desc">
+              A full-stack shopping platform with product management, cart functionality, payment integration, and admin dashboard.
+            </p>
+            <div class="card-links">
+              <a href="projects.html#project-1" class="btn btn-outline btn-sm">Details</a>
+              <a href="https://plevtee.com/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 2 -->
+        <article class="card project-card fade-up">
+          <div class="card-thumb">
+            <div class="thumb-placeholder"><img src="assets/images/project2.png" alt="Project 2"/></div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">TailwindCss</span>
+              <span class="tag">Angular21</span>
+              <span class="tag">Netlify</span>
+            </div>
+            <h3 class="card-title">Marvel Rivals website</h3>
+            <p class="card-desc">
+               A blazing-fast blog platform built with Next.js and Supabase. Authors can write in Markdown, 
+               manage drafts, schedule posts, and customise their public profile page.
+            </p>
+            <div class="card-links">
+              <a href="projects.html#project-2" class="btn btn-outline btn-sm">Details</a>
+              <a href="https://693ed6d955604a983c215d7b--prelimprojectsolo.netlify.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project Card 3 (Pmo)-->
+        <article class="card project-card fade-up">
+          <div class="card-thumb">
+            <div class="thumb-placeholder"><img src="assets/images/project3.png" alt="Project 3"/></div>
+            <div class="card-overlay"></div>
+          </div>
+          <div class="card-body">
+            <div class="card-tags">
+              <span class="tag">PHP</span>
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">javaScript</span>
+            </div>
+            <h3 class="card-title">(PMO)Food Website</h3>
+            <p class="card-desc">
+              Food Website is a classic diner-themed food ordering web application where users can browse the menu, read reviews, and place orders for retro-style comfort food — including burgers, fries, milkshakes, and pies — delivered straight to their door. Built with HTML, CSS, JavaScript, and PHP, it features user authentication, an admin panel for menu management, and a nostalgic vintage dining aesthetic.
+            </p>
+            <div class="card-links">
+              <a href="projects.html#project-3" class="btn btn-outline btn-sm">Details</a>
+              <a href="https://food-website-edrimans.netlify.app/" class="btn btn-primary btn-sm" target="_blank" rel="noopener">Live Demo ↗</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div style="text-align:center; margin-top:48px;" class="fade-up">
+        <a href="projects.html" class="btn btn-outline">See All Projects →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Adrian<span>SanPedro</span></div>
+        <div class="footer-copy-wrap">
+          <img src="assets/images/icon.png" alt="" class="footer-icon"/>
+          <p class="footer-copy">© 2026 Adrian San Pedro. All rights reserved.</p>
+        </div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

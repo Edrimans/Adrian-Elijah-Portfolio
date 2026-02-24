@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio — Projects</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+  <!-- ======= NAVBAR ======= -->
+  <nav class="navbar">
+    <div class="container">
+      <a class="nav-logo" href="index.html">Adrian<span>SanPedro</span><img src="assets/images/icon.png" alt="" class="nav-logo-icon"/></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="nav-cta"><a href="contact.html" class="btn btn-primary btn-sm">Hire Me</a></li>
+      </ul>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☀️</button>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ======= PAGE HERO ======= -->
+  <div class="projects-hero">
+    <div class="container">
+      <span class="section-label fade-up">My Work</span>
+      <h1 class="section-title fade-up">Projects</h1>
+      <p class="section-subtitle fade-up" style="margin: 0 auto 36px;">
+        Every project is a story of a problem, a solution, and lessons learned. Here's what I've been building.
+      </p>
+      <!-- Filter Buttons -->
+      <div class="projects-filter fade-up">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="fullstack">Full-Stack</button>
+        <button class="filter-btn" data-filter="frontend">Frontend</button>
+        <button class="filter-btn" data-filter="backend">Backend</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ======= PROJECTS LIST ======= -->
+  <div class="container">
+    <div class="projects-list">
+
+      <!-- -------- PROJECT 1 -------- -->
+      <article class="project-entry fade-up" id="project-1" data-category="fullstack frontend">
+        <div class="project-images">
+          <div class="img-main">
+            <!--  Replace emoji with <img src="assets/images/proj1-main.png" alt="E-Commerce Platform"/>  -->
+            <img src="assets/images/project1.png" alt="Project 1"/>
+          </div>
+          <div class="img-thumbs">
+            <div class="img-thumb"><img src="assets/images/project1.1.png" alt="cart"/></div>
+            <div class="img-thumb"><img src="assets/images/project1.2.png" alt="Shop"/></div>
+            <div class="img-thumb"><img src="assets/images/project1.3.png" alt="Blogs"/></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-num">// 01</p>
+          <h2 class="project-title">Plevtee</h2>
+          <p class="project-desc">
+            A fully featured online shopping platform / blog website complete with product catalogue, real-time inventory management, secure checkout and a comprehensive admin dashboard for order and user management.
+          </p>
+          <p class="project-desc">
+            <strong style="color:var(--clr-text)">Key Features:</strong> SEO optimization, product search &amp; filtering, cart &amp; wishlist, order tracking.
+          </p>
+          <div class="project-techs">
+            <span class="tag">Wordpress</span>
+            <span class="tag">UI/UX Design</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://plevtee.com/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo ↗</a>
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- -------- PROJECT 2 (Marvel Rivals) -------- -->
+      <article class="project-entry fade-up" id="project-2" data-category="frontend">
+        <div class="project-images">
+          <div class="img-main">
+            <img src="assets/images/project2.png" alt="Project 2"/>
+          </div>
+          <div class="img-thumbs">
+            <div class="img-thumb"><img src="assets/images/project2.1.png" alt="Characters"/></div>
+            <div class="img-thumb"><img src="assets/images/project2.2.png" alt="Characters"/></div>
+            <div class="img-thumb"><img src="assets/images/project2.3.png" alt="About"/></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-num">// 02</p>
+          <h2 class="project-title">Marvel Rivals website</h2>
+          <p class="project-desc">
+            A Marvel Rivals-themed fan website built with Angular 21. It features a bold black-and-gold aesthetic styled after the game's visual identity, with three main pages: Home, Characters, About The site uses angular (skewed) UI shapes, gold accents, and custom fonts (Racing Sans One, TASA Orbiter) to match the game's action-combat look and feel..
+          </p>
+          <p class="project-desc">
+            <strong style="color:var(--clr-text)">Key Features:</strong> Angular 21 SPA with 4 pages (Home, Characters, Character Detail, About), responsive design, custom CSS animations, and a character database fetched from a mock JSON API.
+          </p>
+          <div class="project-techs">
+            <span class="tag">HTML</span>
+            <span class="tag">TailwindCSS</span>
+            <span class="tag">Angular 21</span>
+            <span class="tag">Netlify</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://693ed6d955604a983c215d7b--prelimprojectsolo.netlify.app/" class="btn btn-primary" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/Edrimans/prelim-project-submission-MRsolo.git" class="btn btn-outline" target="_blank" rel="noopener">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- -------- PROJECT 3 (PMO)-------- -->
+      <article class="project-entry fade-up" id="project-3" data-category="fullstack frontend">
+        <div class="project-images">
+          <div class="img-main"><img src="assets/images/project3.png" alt="Project 3"/></div>
+          <div class="img-thumbs">
+            <div class="img-thumb"><img src="assets/images/project3.1.png" alt="Project 3"/></div>
+            <div class="img-thumb"><img src="assets/images/project3.2.png" alt="Project 3"/></div>
+            <div class="img-thumb"><img src="assets/images/project3.3.png" alt="Project 3"/></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-num">// 03</p>
+          <h2 class="project-title">(PMO)Food Website</h2>
+          <p class="project-desc">
+            Food Website is a classic diner-themed food ordering web application where users can browse the menu, read reviews, and place orders for retro-style comfort food — including burgers, fries, milkshakes, and pies — delivered straight to their door. Built with HTML, CSS, JavaScript, and PHP, it features user authentication, an admin panel for menu management, and a nostalgic vintage dining aesthetic.
+          </p>
+          <p class="project-desc">
+            <strong style="color:var(--clr-text)"> PHP, Javascript, HTML, CSS</strong> were used to create a dynamic and interactive food ordering website with a vintage diner theme. The project includes features such as user authentication, menu browsing, order placement, and an admin panel for managing the menu and orders.
+          </p>
+          <div class="project-techs">
+            <span class="tag">JavaScript</span>
+            <span class="tag">CSS</span>
+            <span class="tag">PHP</span>
+            <span class="tag">HTML</span>
+            </div>
+          <div class="project-actions">
+            <a href="https://food-website-edrimans.netlify.app"class="btn btn-primary" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/Edrimans/food-website.git" class="btn btn-outline" target="_blank" rel="noopener">
+              <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.44 9.8 8.2 11.38.6.11.82-.26.82-.58v-2.03c-3.34.72-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.5 1 .1-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.04.13 3 .4 2.28-1.55 3.29-1.23 3.29-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.61-2.81 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.22.7.83.58C20.57 21.8 24 17.3 24 12 24 5.37 18.63 0 12 0z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </article>
+
+      <!-- -------- PROJECT 4 -------- -->
+      <article class="project-entry fade-up" id="project-4" data-category="frontend">
+        <div class="project-images">
+          <div class="img-main"><img src="assets/images/project4.png" alt="Project 4"/></div>
+          <div class="img-thumbs">
+            <div class="img-thumb"><img src="assets/images/Project4.1.png" alt="Project 4.1"/></div>
+            <div class="img-thumb"><img src="assets/images/Project4.2.png" alt="Project 4.2"/></div>
+            <div class="img-thumb"><img src="assets/images/Project4.3.png" alt="Project 4.3"/></div>
+          </div>
+        </div>
+        <div class="project-info">
+          <p class="project-num">// 04</p>
+          <h2 class="project-title">Kekatamu Conceptual Website</h2>
+          <p class="project-desc">
+            A Python-based automation bot that integrates with the OpenAI API to intelligently parse, prioritise, and delegate tasks from a shared team inbox — reducing manual triage time by over 70%.
+          </p>
+          <p class="project-desc">
+            <strong style="color:var(--clr-text)">Key Features:</strong> NLP task extraction, Slack &amp; email integration, priority scoring, daily digest reports, configurable rules engine.
+          </p>
+          <div class="project-techs">
+            <span class="tag">Figma</span>
+          </div>
+          <div class="project-actions">
+            <a href="https://www.figma.com/proto/JxlLRMDxKRGiR2b73AIrID/WEBPUB-website?page-id=0%3A1&node-id=65-60&p=f&viewport=941%2C-37%2C0.25&t=e2ty0diC7843GCJg-1&scaling=min-zoom&content-scaling=fixed" class="btn btn-primary" target="_blank" rel="noopener">Live Demo ↗</a>
+          </div>
+        </div>
+      </article>
+
+    </div><!-- /projects-list -->
+  </div>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">Adrian<span>SanPedro</span></div>
+        <div class="footer-copy-wrap">
+          <img src="assets/images/icon.png" alt="" class="footer-icon"/>
+          <p class="footer-copy">© 2026 Adrian San Pedro. All rights reserved.</p>
+        </div>
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ======= LIGHTBOX ======= -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">&#8592;</button>
+    <button class="lightbox-next" id="lightboxNext" aria-label="Next">&#8594;</button>
+    <div class="lightbox-backdrop" id="lightboxBackdrop"></div>
+    <div class="lightbox-content">
+      <img class="lightbox-img" id="lightboxImg" src="" alt=""/>
+      <p class="lightbox-caption" id="lightboxCaption"></p>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
